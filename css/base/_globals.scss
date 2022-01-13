@@ -1,0 +1,88 @@
+@import "./variables";
+@import "./mixins";
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.3;
+    font-family: "poppins", sans-serif;
+    background: $background_color;
+    a {
+        transition: 0.25s linear;
+        text-decoration: none;
+        color: black;
+        &:hover {
+            text-decoration: none;
+            color: $primary_color;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        li {
+            list-style-type: none;
+        }
+    }
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        color: #393939;
+        // letter-spacing: 0.1px;
+        // font-size: 14px;
+        // line-height: 20px;
+    }
+}
+
+.sec-padding {
+    padding: 60px 0;
+}
+
+.sec-title {
+    margin-top: 20px;
+    margin-bottom: 12px;
+    width: 60%;
+    h2 {
+        text-transform: capitalize;
+        position: relative;
+        display: inline-block;
+        font-weight: 600;
+        color: #4c4c4c;
+        font-size: 42px;
+    }
+}
+
+.container {
+    max-width: 1400px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+}
+
+.nav-link {
+    padding: 2px 0;
+}
+
+.side-padding {
+    padding-left: 60px;
+    padding-right: 60px;
+}
