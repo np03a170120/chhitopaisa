@@ -391,3 +391,114 @@
         color: white;
     }
 }
+
+.services {
+    .nav {
+        justify-content: center;
+    }
+    .nav-tabs .nav-link,
+    .nav-tabs {
+        border: 0;
+    }
+    .nav-link {
+        text-align: center;
+        border-radius: 18px;
+        margin: 8px;
+        padding: 12px;
+        background: #f4f4f4;
+    }
+}
+
+.sn-content {
+    height: 100px;
+    width: 100px;
+    line-height: 70px;
+    img {
+        height: 60px;
+        width: 60px;
+        object-fit: cover;
+    }
+    h6 {
+        text-transform: capitalize;
+        margin: 8px 0;
+        font-size: 12px;
+    }
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: white;
+    background: $primary_color;
+}
+
+.services-navigation {
+    padding: 0 200px;
+}
+
+.tab-content {
+    margin: 72px 0;
+    padding: 60px 80px;
+    background: $primary_color;
+    color: white;
+    border-radius: 100px;
+}
+
+.tc-title {
+    text-align: center;
+    h5 {
+        margin: 18px 0;
+        font-size: 46px;
+        font-weight: 600;
+    }
+}
+
+.tc-vector {
+    margin: 32px 0;
+    text-align: center;
+    img {
+        height: 375px;
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+.tc-text {
+    padding: 0 60px;
+    p {
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+.tc-highlight-text {
+    margin: 48px 0;
+    text-align: center;
+    h3 {
+        font-weight: 700;
+        font-size: 38px;
+    }
+}
+
+.action-button {
+    padding: 10px 20px;
+    display: inline-block;
+    background: #ffb636;
+    border-radius: 32px;
+    a {
+        color: white;
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+
+.video-tutorial {
+    display: flex;
+    align-items: center;
+}
+
+.display-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -549,4 +549,136 @@ body p {
 .copy-right a {
   color: white;
 }
+
+.services .nav {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.services .nav-tabs .nav-link,
+.services .nav-tabs {
+  border: 0;
+}
+
+.services .nav-link {
+  text-align: center;
+  border-radius: 18px;
+  margin: 8px;
+  padding: 12px;
+  background: #f4f4f4;
+}
+
+.sn-content {
+  height: 100px;
+  width: 100px;
+  line-height: 70px;
+}
+
+.sn-content img {
+  height: 60px;
+  width: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.sn-content h6 {
+  text-transform: capitalize;
+  margin: 8px 0;
+  font-size: 12px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: white;
+  background: #de0b39;
+}
+
+.services-navigation {
+  padding: 0 200px;
+}
+
+.tab-content {
+  margin: 72px 0;
+  padding: 60px 80px;
+  background: #de0b39;
+  color: white;
+  border-radius: 100px;
+}
+
+.tc-title {
+  text-align: center;
+}
+
+.tc-title h5 {
+  margin: 18px 0;
+  font-size: 46px;
+  font-weight: 600;
+}
+
+.tc-vector {
+  margin: 32px 0;
+  text-align: center;
+}
+
+.tc-vector img {
+  height: 375px;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.tc-text {
+  padding: 0 60px;
+}
+
+.tc-text p {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.tc-highlight-text {
+  margin: 48px 0;
+  text-align: center;
+}
+
+.tc-highlight-text h3 {
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.action-button {
+  padding: 10px 20px;
+  display: inline-block;
+  background: #ffb636;
+  border-radius: 32px;
+}
+
+.action-button a {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.video-tutorial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.display-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 /*# sourceMappingURL=main.css.map */
