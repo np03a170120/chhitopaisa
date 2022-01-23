@@ -708,4 +708,13 @@ thead {
 .charges-table-content {
   margin: 80px 0;
 }
+
+.description {
+  padding: 0 200px;
+}
+
+.description p {
+  line-height: 24px;
+  text-align: justify;
+}
 /*# sourceMappingURL=main.css.map */
