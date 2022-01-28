@@ -187,4 +187,45 @@
     .nav {
         flex-wrap: nowrap;
     }
+    .tc-title h5 {
+        font-size: 30px;
+    }
+    .tab-content {
+        margin: 30px 0;
+        padding: 60px 25px;
+        border-radius: 32px;
+    }
+    .tc-text {
+        padding: 0px;
+    }
+    .tc-text p {
+        font-size: 12px;
+    }
+    .tc-vector img {
+        height: 270px;
+    }
+    .vt-icon img {
+        height: 40px;
+        width: 40px;
+    }
+    .display-wrapper {
+        display: block;
+        text-align: center;
+    }
+    .action-button a {
+        font-size: 18px;
+    }
+    .video-tutorial {
+        margin-top: 24px;
+        display: block;
+    }
+    .description {
+        padding: 0;
+    }
+    .charges-table-content {
+        padding: 0;
+    }
+    .services .nav {
+        justify-content: flex-start;
+    }
 }
