@@ -717,4 +717,87 @@ thead {
   line-height: 24px;
   text-align: justify;
 }
+
+.main-contact {
+  background: #003694;
+}
+
+.main-contact .sec-title {
+  text-align: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-contact .sec-title h2 {
+  color: white;
+}
+
+.main-contact .sec-title span img {
+  height: 50px;
+  width: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-left: 10px;
+}
+
+.contact {
+  margin: 24px 0;
+}
+
+.contact a {
+  color: white;
+}
+
+.contact li {
+  margin-bottom: 10px;
+}
+
+.contact img {
+  height: 30px;
+  width: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contact-wrapper {
+  padding: 0 190px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tf-title {
+  margin-bottom: 24px;
+}
+
+.tf-title h4 {
+  color: white;
+  border-bottom: 2px solid #de0b39;
+}
+
+.toll-free li {
+  margin: 12px 0;
+}
+
+.toll-free a {
+  color: white;
+}
+
+.footer-main {
+  padding-top: 32px;
+}
 /*# sourceMappingURL=main.css.map */

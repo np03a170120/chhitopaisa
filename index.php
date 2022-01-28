@@ -15,7 +15,7 @@
         </div>
         <div class="btn_adjustment_center text-center">
             <div class="btn">
-                <a href="#">Learn More</a>
+                <a href="about.php">Learn More</a>
             </div>
         </div>
         <div class="design_image">
@@ -55,7 +55,7 @@
                 </div>
                 <div class="learn_more">
                     <div class="btn">
-                        <a href="#">Learn More</a>
+                        <a href="about.php">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -77,7 +77,7 @@
                 </div>
                 <div class="learn_more">
                     <div class="btn">
-                        <a href="#">Learn More</a>
+                        <a href="about.php">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -99,7 +99,7 @@
                 </div>
                 <div class="learn_more">
                     <div class="btn">
-                        <a href="#">Learn More</a>
+                        <a href="about.php">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -134,7 +134,7 @@
                         payments. Cashless Nepal could be a model for the world. .</p>
                 </div>
                 <div class="psr-link">
-                    <a href="#">Create</a>
+                    <a href="about.php">Create</a>
                 </div>
             </div>
         </div>
@@ -305,12 +305,50 @@
                     </div>
                 </div>
             </div>
-            <div class="btn_adjustment_center text-center redirect">
-                <div class="btn">
-                    <a href="#">redirect to tutorial</a>
-                </div>
-            </div>
+
         </div>
     </div>
 </section>
+
+
+<!-- main contact -->
+<section class="main-contact sec-padding side-padding">
+    <div class="container">
+        <div class="sec-title">
+            <h2>you may want to keep in touch</h2> <span><img src="./images/heart_emoji.png" alt=""></span>
+        </div>
+        <div class="contact-wrapper">
+
+            <ul class="contact">
+                <li>
+                    <a href="#">
+                        <img src="./images/phone-icon.png" alt=""><span>(01)-12345-6789</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/location-icon.png" alt=""> <span>Maitidevi, Kathmandu</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/email-icon.png" alt=""> <span>company@email.com</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="toll-free">
+                <div class="tf-title">
+                    <h4>Toll Free Numbers</h4>
+                </div>
+                <li>
+                    <a href="#">(01)-12345-6789</a>
+                </li>
+                <li>
+                    <a href="#">(01)-12345-6789</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
 <?php include 'footer.php'?>

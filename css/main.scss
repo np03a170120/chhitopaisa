@@ -536,3 +536,69 @@ thead {
         text-align: justify;
     }
 }
+
+.main-contact {
+    background: $secondary_color;
+}
+
+.main-contact .sec-title {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h2 {
+        color: white;
+    }
+    span {
+        img {
+            height: 50px;
+            width: auto;
+            object-fit: contain;
+            margin-left: 10px;
+        }
+    }
+}
+
+.contact {
+    margin: 24px 0;
+    a {
+        color: white;
+    }
+    li {
+        margin-bottom: 10px;
+    }
+    img {
+        height: 30px;
+        width: 30px;
+        object-fit: cover;
+    }
+}
+
+.contact-wrapper {
+    padding: 0 190px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.tf-title {
+    margin-bottom: 24px;
+    h4 {
+        color: white;
+        border-bottom: 2px solid $primary_color;
+    }
+}
+
+.toll-free {
+    li {
+        margin: 12px 0;
+    }
+    a {
+        color: white;
+    }
+}
+
+.footer-main {
+    padding-top: 32px;
+}
