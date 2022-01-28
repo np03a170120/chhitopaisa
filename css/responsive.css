@@ -1,0 +1,175 @@
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    /* * {
+        border: 1px solid red;
+    } */
+    body p {
+        font-size: 12px;
+    }
+    .logo {
+        text-align: center;
+    }
+    .title {
+        padding: 0;
+    }
+    .title h2 {
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+    .about img {
+        height: 100px;
+        width: 100px;
+    }
+    .title h3 {
+        padding: 0;
+        font-size: 13px;
+        margin-top: 24px;
+    }
+    .design_image img {
+        height: 214px;
+        width: 232px;
+    }
+    .download_logo img {
+        height: 50px;
+    }
+    .btn {
+        margin-bottom: 28px;
+        font-size: 12px;
+    }
+    .main_about .right {
+        right: 10px;
+    }
+    .login {
+        display: none;
+    }
+    .about_logo img {
+        height: 80px;
+        width: 140px;
+    }
+    .mssl_icon img {
+        height: 60px;
+        width: 60px;
+    }
+    .ms_single {
+        margin: 18px 0;
+        padding: 18px;
+        border-radius: 32px;
+    }
+    .mssl_title h6 {
+        font-size: 18px;
+    }
+    .mss_right {
+        display: none;
+    }
+    .side-padding {
+        padding: 18px 0;
+    }
+    .sec-title {
+        width: 100%;
+    }
+    .sec-title h2 {
+        font-size: 22px;
+    }
+    .mp_desc {
+        width: 100%;
+    }
+    .process_single {
+        margin: 30px 0 24px 0;
+    }
+    .video-play-button img {
+        height: 100px;
+    }
+    .main-faqs .sec-title {
+        padding: 0px;
+    }
+    .contact-wrapper {
+        padding: 0;
+    }
+    .side_link_content {
+        display: none;
+    }
+    .ps-left-number h6 {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+        font-size: 18px;
+        margin: 0 8px;
+    }
+    .psr-title h6 {
+        font-size: 18px;
+    }
+    .mssl_desc {
+        padding-right: 0px;
+    }
+    .psr-text {
+        padding-top: 0;
+    }
+    .mv-content {
+        padding: 30px;
+        height: 320px;
+        border-radius: 32px;
+    }
+    .mf-content .btn-link {
+        font-size: 15px;
+    }
+    .mf-content {
+        padding: 8px 0;
+    }
+    .card-header {
+        padding: 6px 0;
+    }
+    .main-contact {
+        padding: 20px;
+    }
+    .tf-title h4 {
+        font-size: 12px;
+    }
+    .contact {
+        margin: 0px;
+    }
+    .contact-wrapper {
+        display: block;
+    }
+    .toll-free {
+        margin-top: 30px;
+    }
+    .tf-title h4 {
+        display: inline-block;
+    }
+    .tf-title {
+        margin-bottom: 12px;
+    }
+    .ftl-content img {
+        height: 40px;
+    }
+    .ft-right {
+        display: none;
+    }
+    .footer-main {
+        padding: 0;
+    }
+    .mf-content .card-body {
+        font-size: 13px;
+    }
+    .navbar {
+        justify-content: flex-end;
+    }
+    .navbar-nav {
+        z-index: 9999;
+        background: #de0b39;
+        position: absolute;
+        right: 0;
+        padding: 10px;
+        border-radius: 18px;
+        margin-top: 8px;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        position: absolute;
+        top: 55px;
+        width: 100%;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-bottom: 8px;
+    }
+}
