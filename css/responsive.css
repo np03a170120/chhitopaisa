@@ -172,4 +172,19 @@
     .navbar-expand-lg .navbar-nav .nav-link {
         margin-bottom: 8px;
     }
+    .services-navigation {
+        padding: 0;
+    }
+    .sn-content img {
+        height: 30px;
+        width: 30px;
+    }
+    #myTab {
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+    .nav {
+        flex-wrap: nowrap;
+    }
 }
